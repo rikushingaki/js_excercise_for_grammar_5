@@ -34,8 +34,8 @@ const factorial = function(num) {
 };
 
 // ここにconsole.logを使って「4」「5」を引数に渡したときの結果値を出力する
-console.log('入力: 4, 期待する結果: 24', factorial(4))
-console.log('入力: 5, 期待する結果: 120', factorial(5))
+console.log('入力: 4, 期待する結果: 24', factorial(4));
+console.log('入力: 5, 期待する結果: 120', factorial(5));
 
 
 // 課題3: 引数に渡した、全ての小文字の文字列の先頭1文字を大文字に変換した文字列を返す「convertFirstCharacterToUpperCase関数」を作る
