@@ -6,13 +6,12 @@
 
 // ここにisOddNumber関数を作る
 function isOddNumber(num) {
-    return num % 2 === 1;
-}
+   return num % 2 === 1;
+};
 
 // ここにconsole.logを使って「9」「14」を引数に渡したときの結果値を出力する
-console.log('入力9, 期待する結果：true', isOddNumber(9));
+console.log('入力: 9, 期待する結果: true', isOddNumber(9));
 console.log('入力: 14, 期待する結果: false', isOddNumber(14));
-
 
 // 課題2: 引数に渡した「1」以上の整数をつかって階乗の結果を返す「factorial関数」を作る (階乗とは: https://ja.wikipedia.org/wiki/%E9%9A%8E%E4%B9%97)
 //   - 関数式の形式で作ること
@@ -28,14 +27,15 @@ console.log('入力: 14, 期待する結果: false', isOddNumber(14));
 const factorial = function(num) {
     let result = 1;
     for(let i = num; i > 0; i--) {
-        result *= i;
+         result *= i;
     }
     return result;
 };
 
+
 // ここにconsole.logを使って「4」「5」を引数に渡したときの結果値を出力する
-console.log('入力: 4, 期待する結果: 24', factorial(4));
-console.log('入力: 5, 期待する結果: 120', factorial(5));
+console.log('入力: 4, 期待する結果: 24 (= 4 * 3 * 2 * 1)', factorial(4));
+console.log('入力: 5, 期待する結果: 120 (= 5 * 4 * 3 * 2 * 1)', factorial(5));
 
 
 // 課題3: 引数に渡した、全ての小文字の文字列の先頭1文字を大文字に変換した文字列を返す「convertFirstCharacterToUpperCase関数」を作る
@@ -51,5 +51,5 @@ const convertFirstCharacterToUpperCase = (text) => {
 };
 
 // ここにconsole.logを使って「'hello'」「'world'」を引数に渡したときの結果値を出力する
-console.log('入力: hello, 期待する結果: Hello', convertFirstCharacterToUpperCase('hello'));
-console.log('入力: world, 期待する結果: World', convertFirstCharacterToUpperCase('world'));
+console.log('入力: hello, 期待する結果: Hello');
+console.log('入力: world, 期待する結果: World');
