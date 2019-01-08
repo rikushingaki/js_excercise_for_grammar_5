@@ -5,13 +5,13 @@
 //     - 入力: 14, 期待する結果: false
 
 // ここにisOddNumber関数を作る
-function is0ddNumber(num) {
+function isOddNumber(num) {
     return num % 2 === 1;
 }
 
 // ここにconsole.logを使って「9」「14」を引数に渡したときの結果値を出力する
-console.log('入力9, 期待する結果：true', is0ddNumber(9));
-console.log('入力: 14, 期待する結果: false', is0ddNumber(14));
+console.log('入力9, 期待する結果：true', isOddNumber(9));
+console.log('入力: 14, 期待する結果: false', isOddNumber(14));
 
 
 // 課題2: 引数に渡した「1」以上の整数をつかって階乗の結果を返す「factorial関数」を作る (階乗とは: https://ja.wikipedia.org/wiki/%E9%9A%8E%E4%B9%97)
